@@ -1,17 +1,19 @@
 {
-  "name": "hello-world-render-server",
+  "name": "express-hello-world",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Express Hello World on Render",
+  "main": "app.js",
+  "repository": "https://github.com/render-examples/express-hello-world",
+  "author": "Render Developers",
+  "license": "MIT",
+  "private": false,
   "scripts": {
-    "start": "node index.js",
-    "build": "echo \"No build step needed for Express\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14"
   }
 }
